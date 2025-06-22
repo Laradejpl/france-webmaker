@@ -1,0 +1,31 @@
+/* Ajouts optionnels si besoin */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+.hero-fade {
+  -webkit-mask-image: radial-gradient(ellipse 80% 80% at center, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%);
+  mask-image: radial-gradient(ellipse 180% 180% at center, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+.navbar-nav .nav-link {
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0d6efd !important; /* bleu Bootstrap */
+}
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 300px;
+    object-fit: cover;
+  }
+}
+
+
